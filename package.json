@@ -11,8 +11,11 @@
   "dependencies": {
     "expo": "~49.0.15",
     "expo-status-bar": "~1.6.0",
+    "nativewind": "^2.0.11",
+    "postcss": "^8.4.23",
     "react": "18.2.0",
-    "react-native": "0.72.6"
+    "react-native": "0.72.6",
+    "tailwindcss": "^3.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
