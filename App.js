@@ -1,12 +1,13 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { Dimensions, FlatList, StyleSheet, Text, View } from "react-native";
 
 export default function App() {
   return (
-    <View className="text-[green]" style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <>
+      <View style={{ flex: 1, alignItems: "center" }}>
+        <StatusBar style="light" />
+      </View>
+    </>
   );
 }
 
