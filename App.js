@@ -26,7 +26,7 @@ const App = () => {
     } else {
       setTimeout(() => {
         setcount((data) => data - 1);
-      }, 1000);
+      }, 500);
     }
   };
   return (
