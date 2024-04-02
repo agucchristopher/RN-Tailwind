@@ -41,7 +41,6 @@ const App = () => {
           borderWidth: 15,
           borderRadius: width * 0.4,
           width: width * 0.8,
-          // borderColor: "#3D3F3E",
           borderLeftColor: "#3D3F3E",
           borderTopColor: "#3D3F3E",
           borderBottomColor: "#8CBD83",
